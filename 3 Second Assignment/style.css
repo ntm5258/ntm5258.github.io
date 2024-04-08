@@ -1,0 +1,97 @@
+
+/* Written by: Nolan Miller */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+::before ::after {
+    box-sizing: inherit;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+
+.content {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.attempts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#display-attempts > *, #display-stats > * {
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#show-attempts, #show-stats {
+    width: 190px;
+    height: 40px;
+    border-radius: 2px;
+    padding: 10px;
+}
+#show-attempts:hover, #show-stats:hover {
+    background-color: #cdd5d9;
+    cursor: pointer;
+}
+
+
+.scroll {
+    height: 250px;
+    width: 50%;
+    margin-left: 25%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.submit-button {
+    padding: 25px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.start {
+    background-color: #3fe83f;
+    border-color: black;
+}
+
+.start:hover {
+    background-color: #35b735;
+    cursor: pointer;
+}
+
+.stop {
+    background-color: #c42828;
+    color: #d9d6d6;
+}
+
+.stop:hover {
+    background-color: #a41f1f;
+    cursor: pointer;
+}
+
+
+.results {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+canvas {
+    margin: 0 auto;
+}
