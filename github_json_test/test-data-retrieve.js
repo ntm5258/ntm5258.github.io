@@ -1,6 +1,6 @@
 
 const retrieveData = async () => {
-    const res = await fetch("https://raw.ntm5258.github.io/github_json_test/test.json");
+    const res = await fetch("https://raw.githubusercontent.com/ntm5258/ntm5258.github.io/main/github_json_test/test.json");
     const data = await res.json();
     return data;
 };
