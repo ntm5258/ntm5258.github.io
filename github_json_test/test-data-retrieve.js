@@ -1,6 +1,6 @@
 
 const retrieveData = async () => {
-    const res = await fetch("https://raw.githubusercontent.com/ntm5258/ntm5258.github.io/main/github_json_test/test.json");
+    const res = await fetch("https://api.jsonbin.io/v3/qs/661d681dacd3cb34a838faa8");
     const data = await res.json();
     return data;
 };
@@ -16,7 +16,7 @@ const getJson = async () => {
     }
 
 
-
+fetch("https://api.jsonbin.io/v3/qs/661d681dacd3cb34a838faa8").then(res => res.json().then(j => console.log(j.record)));
 
 };
 
