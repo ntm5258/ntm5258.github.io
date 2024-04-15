@@ -16,9 +16,8 @@ const getJson = async () => {
     }
 
 
-fetch("https://api.jsonbin.io/v3/qs/661d681dacd3cb34a838faa8").then(res => res.json().then(j => console.log(j.record)));
-
 };
 
 getJson();
 console.log("works");
+fetch("https://api.jsonbin.io/v3/qs/661d681dacd3cb34a838faa8").then(res => res.json().then(j => console.log(j.record)));
