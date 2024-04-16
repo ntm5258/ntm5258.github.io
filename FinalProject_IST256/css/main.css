@@ -81,4 +81,8 @@ img {
         transform: none;
         z-index: 10;
     }
+
+    .vh-100 {
+        max-height: 100px;
+    }
 }
