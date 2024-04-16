@@ -55,6 +55,13 @@ const json = {
             "price": 19.99,
             "description": "Introducing our retro-inspired orange cushion chair: a vibrant addition to any space. With its classic design and plush orange cushions, this chair brings a pop of color and comfort to your home. Crafted for durability and style, it's a cozy seat with a nostalgic flair.",
             "img_path": "images/rustic/rustic_red_chair.jpeg"
+        },
+        {
+              "id": 4,
+              "title": "Old Fashioned Colorful Chair",
+              "price": 19.99,
+              "description": "Introducing the Classic Comfort Armchair: Sink into timeless relaxation with plush cushions and sturdy support. Vibrant colors and a classic design add charm to any space. Perfect for unwinding in style. Elevate your home with cozy comfort and a pop of color today!",
+              "img_path": "images/rustic/comfy_grandma_chair.jpeg"
         }
     ],
     "industrial": [
