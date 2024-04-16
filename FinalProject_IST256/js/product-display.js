@@ -59,7 +59,7 @@ const json = {
         {
               "id": 4,
               "title": "Old Fashioned Colorful Chair",
-              "price": 19.99,
+              "price": 34.99,
               "description": "Introducing the Classic Comfort Armchair: Sink into timeless relaxation with plush cushions and sturdy support. Vibrant colors and a classic design add charm to any space. Perfect for unwinding in style. Elevate your home with cozy comfort and a pop of color today!",
               "img_path": "images/rustic/comfy_grandma_chair.jpeg"
         }
